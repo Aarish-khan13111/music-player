@@ -1,8 +1,3 @@
-// github.com/webFardin
-// twitter.com/webFardin0
-// instagram.com/webFardin
-// t.me/webFardin
-
 "use strict";
 
 let audioTrack = document.createElement("audio");
@@ -53,7 +48,7 @@ let musics = [
     album: "Divided",
     coverImage: "https://i.postimg.cc/y62Drhym/image.jpg",
     audioSource:
-      "https://cdns-preview-4.dzcdn.net/stream/c-465dbacd317d67cc6a4d1adb22355970-2.mp3"
+      "https://cdns-preview-4.dzcdn.net/stream/c-465dbacd317d67cc6a4d1adb22355970-2.mp3",
   },
   {
     trackName: "Senden Baska",
@@ -61,7 +56,7 @@ let musics = [
     album: "Singles",
     coverImage: "https://i.postimg.cc/cCtNnnKZ/image.jpg",
     audioSource:
-      "https://cdns-preview-9.dzcdn.net/stream/c-94e53a428fd9dbf35c5b06d800447c2a-4.mp3"
+      "https://cdns-preview-9.dzcdn.net/stream/c-94e53a428fd9dbf35c5b06d800447c2a-4.mp3",
   },
   {
     trackName: "I don't care",
@@ -69,7 +64,7 @@ let musics = [
     album: "Singles",
     coverImage: "https://i.postimg.cc/BZj8g7HZ/image.jpg",
     audioSource:
-      "https://cdns-preview-d.dzcdn.net/stream/c-dbbdb0dd57e34c52b2379fb69bc7da4f-3.mp3"
+      "https://cdns-preview-d.dzcdn.net/stream/c-dbbdb0dd57e34c52b2379fb69bc7da4f-3.mp3",
   },
   {
     trackName: "Monster",
@@ -77,7 +72,7 @@ let musics = [
     album: "APOPHYSITIS",
     coverImage: "https://i.postimg.cc/BnS4htk5/image.jpg",
     audioSource:
-      "https://cdns-preview-4.dzcdn.net/stream/c-46413a2a74ddd53a2f13ef2b853202f7-3.mp3"
+      "https://cdns-preview-4.dzcdn.net/stream/c-46413a2a74ddd53a2f13ef2b853202f7-3.mp3",
   },
 
   {
@@ -86,7 +81,7 @@ let musics = [
     album: "Phobia",
     coverImage: "https://i.postimg.cc/15Xzmj0J/image.jpg",
     audioSource:
-      "https://cdns-preview-b.dzcdn.net/stream/c-b2bbd0db3fb9e1314ef56dfc11c86a65-5.mp3"
+      "https://cdns-preview-b.dzcdn.net/stream/c-b2bbd0db3fb9e1314ef56dfc11c86a65-5.mp3",
   },
   {
     trackName: "The Catalyst",
@@ -94,7 +89,7 @@ let musics = [
     album: "A Thousand Sun",
     coverImage: "https://i.postimg.cc/FK3jRqxM/image.jpg",
     audioSource:
-      "https://cdns-preview-8.dzcdn.net/stream/c-8930ac6a4a087666b651b8aad5cd4a26-5.mp3"
+      "https://cdns-preview-8.dzcdn.net/stream/c-8930ac6a4a087666b651b8aad5cd4a26-5.mp3",
   },
   {
     trackName: "Lali",
@@ -102,8 +97,8 @@ let musics = [
     album: "Spisok tvoikh mysley",
     coverImage: "https://i.postimg.cc/hvyGBHCW/image.jpg",
     audioSource:
-      "https://cdns-preview-0.dzcdn.net/stream/c-095471cd71c784daa9eab6beb69c5848-3.mp3"
-  }
+      "https://cdns-preview-0.dzcdn.net/stream/c-095471cd71c784daa9eab6beb69c5848-3.mp3",
+  },
 ];
 
 musics.forEach((item, index) => {
@@ -333,7 +328,7 @@ audioTrack.addEventListener("playing", (e) => {
         duration: 5000,
         easing: "ease-in-out",
         direction: "alternate",
-        iterations: Infinity
+        iterations: Infinity,
       }
     );
     firstTimeAnimation = false;
@@ -349,7 +344,7 @@ audioTrack.addEventListener("pause", (e) => {
     {
       duration: 1000,
       easing: "linear",
-      fill: "forwards"
+      fill: "forwards",
     }
   );
 
